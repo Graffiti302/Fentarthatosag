@@ -1,0 +1,45 @@
+img {
+    max-width: 70%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color:aquamarine;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tarolo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h1 {
+    text-align: center;
+    color: royalblue;
+}
+.navok {
+    text-align: center;
+    border: 3px solid aqua;
+    padding: 5px;
+    margin: 10px;
+    background-color: royalblue;
+}
+footer {
+font-size: 30px;  
+text-align: center;
+border: 3px solid lightblue;
+background-color: teal;
+text-transform: capitalize;
+color: purple;
+}
+#okozoi{
+    border: 3px solid aqua;
+    height: 570px;
+}
+#gaz_okozoi{
+    border: 3px solid aqua;
+    height: 570px;
+}

@@ -1,12 +1,18 @@
 img {
-    max-width: 70%;
+    max-width: 100%;
+    border-radius: 15665px;
 }
 *{
     box-sizing: border-box;
 }
 body{
     margin: auto;
-    background-color:aquamarine;
+    background-image: url(istockphoto-489084252-2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-size: 160%;
+    width: 1500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:lightcyan;
 }
 nav{
     display: grid;
@@ -15,31 +21,85 @@ nav{
 .tarolo{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 100px;
 }
 h1 {
     text-align: center;
     color: royalblue;
+}
+h3 {
+    text-align: center;
+    color: rgb(8, 28, 88);
+    font-size: 25px;
 }
 .navok {
     text-align: center;
     border: 3px solid aqua;
     padding: 5px;
     margin: 10px;
-    background-color: royalblue;
+    background-color: skyblue;
+    font-size: 20px;
+    border-radius: 15665px;
+}
+.navok a {
+    color: blue;
+    padding: 5px;
+    margin: 3px;
+    border: 2px solid darkcyan;
+    border-width: 5px;
+    border-radius: 15665px;
+    background-color: darkturquoise;
 }
 footer {
 font-size: 30px;  
 text-align: center;
-border: 3px solid lightblue;
-background-color: teal;
+background-color:skyblue;
 text-transform: capitalize;
 color: purple;
 }
-#okozoi{
-    border: 3px solid aqua;
-    height: 570px;
+#okozoi {
+    border: 5px solid royalblue;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
 }
-#gaz_okozoi{
-    border: 3px solid aqua;
-    height: 570px;
+#gaz_okozoi {
+    border: 5px solid royalblue;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+#Mas_karos_gazok {
+    border: 5px solid royalblue;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+#miert_konctracio_nov {
+    border: 5px solid royalblue;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+p {
+    color: blue;
+}
+a:hover{
+    color:lightskyblue;
+    background-color: teal;
+}
+li {
+    text-align: left;
+    color: blue;
+}
+a {
+    color: rgb(29, 133, 194);
 }

@@ -39,3 +39,17 @@ a {
     background-color:aqua ;
     font-weight: bold;
 }
+@media screen and (max-width:1000px) {
+    .kepek {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .kepek {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    
+}

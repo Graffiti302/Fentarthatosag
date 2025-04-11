@@ -10,7 +10,6 @@ body{
     background-image: url(istockphoto-489084252-2048x2048.jpg);
     background-repeat: no-repeat;
     background-size: 160%;
-    width: 1500px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:lightcyan;
 }
@@ -22,6 +21,12 @@ nav{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
+    border: 5px solid royalblue;
+    padding: 10px;
+    margin: 0px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: justify;
 }
 h1 {
     text-align: center;
@@ -49,6 +54,7 @@ h3 {
     border-width: 5px;
     border-radius: 15665px;
     background-color: darkturquoise;
+    text-decoration: none;
 }
 footer {
 font-size: 30px;  
@@ -57,38 +63,7 @@ background-color:skyblue;
 text-transform: capitalize;
 color: purple;
 }
-#okozoi {
-    border: 5px solid royalblue;
-    padding: 0px;
-    margin: 0px;
-    font-size: 20px;
-    border-radius: 50px;
-    text-align: center;
-}
-#gaz_okozoi {
-    border: 5px solid royalblue;
-    padding: 0px;
-    margin: 0px;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 50px;
-}
-#Mas_karos_gazok {
-    border: 5px solid royalblue;
-    padding: 0px;
-    margin: 0px;
-    font-size: 20px;
-    border-radius: 50px;
-    text-align: center;
-}
-#miert_konctracio_nov {
-    border: 5px solid royalblue;
-    padding: 0px;
-    margin: 0px;
-    font-size: 20px;
-    border-radius: 50px;
-    text-align: center;
-}
+
 p {
     color: blue;
 }
@@ -102,4 +77,11 @@ li {
 }
 a {
     color: rgb(29, 133, 194);
+    text-decoration: none;
+}
+@media screen and (max-width:1000px) {
+    .tarolo {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
 }

@@ -1,5 +1,6 @@
 img {
     max-width: 100%;
+    border-radius: 100px;
 }
 .tarolo {
     display: grid;
@@ -41,14 +42,14 @@ a {
     font-weight: bold;
 }
 @media screen and (max-width:1000px) {
-    .kepek {
+    .tarolo {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     
 }
 @media screen and (max-width:800px) {
-    .kepek {
+    .tarolo {
         display: grid;
         grid-template-columns: 1fr ;
     }
@@ -59,7 +60,7 @@ a {
 }
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color:lightgreen;
   }
   
   .navbar a {
@@ -88,7 +89,7 @@ a {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: teal;
   }
   
   .dropdown-content {
@@ -110,7 +111,7 @@ a {
   }
   
   .dropdown-content a:hover {
-    background-color: darkred;
+    background-color: teal;
   }
   
   .dropdown:hover .dropdown-content {
@@ -121,7 +122,16 @@ p{
     color: royalblue;
     padding: 5px;
     margin: 10px;
-    border: 5px solid darkcyan ;
+    border: 5px solid rgb(0, 0, 0) ;
     background-color:rgb(255, 255, 255) ;
+}
+h2{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.979);
+    padding: 5px;
+    margin: 10px;
+    border: 5px solid rgb(0, 0, 0) ;
+    background-color:rgb(13, 90, 60) ;
     font-weight: bold;
+    border-radius: 25px;
 }

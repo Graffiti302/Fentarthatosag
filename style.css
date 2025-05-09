@@ -7,6 +7,7 @@ img {
     gap: 10px;
 }
 
+
 body {
     margin: auto;
     background-image: url(recycle-5047886_1280.png);
@@ -16,7 +17,7 @@ body {
 nav {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 h1 {
     text-align: center;
@@ -52,4 +53,7 @@ a {
         grid-template-columns: 1fr ;
     }
     
+}
+*{
+    box-sizing: border-box;
 }

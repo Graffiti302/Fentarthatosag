@@ -38,7 +38,13 @@ padding-left: 10px;
   color: cyan;
   margin-top: 20px;
   margin-bottom: 20px;
-  opacity: 0.8;
+  opacity: 0.5;
+
+}
+section:hover{
+opacity: 1;
+
+
 
 }
 footer {

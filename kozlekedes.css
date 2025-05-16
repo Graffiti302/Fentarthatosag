@@ -17,7 +17,7 @@ img {
   height: 200px;
   margin-left: 20px;
   margin-top: 20px;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 
 .tarolo {
@@ -33,12 +33,12 @@ img {
 
 section {
 padding-left: 10px;
-  border: 10px solid black;
+  border: 5px solid black;
   border-radius: 10px;
-  color: white;
+  color: cyan;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: gray;
+  background-color: transparent;
 }
 footer {
   text-align: center;
